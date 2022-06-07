@@ -1,12 +1,8 @@
 <?php
-
-namespace sezer\boluk;
-
-
+namespace SB\Src;
 
 class Index {
     public function great($greet = 'hello world') {
-        echo 'test22';
         echo $greet;
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "sezerboluk222/denemecomposercalismam",
+    "name": "sezerblk/php-project",
     "description": "A simple hello world composer package",
     "type": "library",
     "license": "MIT",
@@ -9,9 +9,15 @@
             "email": "white.code.text@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {"sezer\\boluk\\": "src/"}
+    "require": {
+          "ext-curl": "*",
+          "ext-json": "*"
     },
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "SB\\Src\\": "SB/Src"
+        }
+    },
+    "minimum-stability": "stable"
+
 }
