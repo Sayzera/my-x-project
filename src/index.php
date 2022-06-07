@@ -6,6 +6,7 @@ namespace sezer\boluk;
 
 class Index {
     public function great($greet = 'hello world') {
+        echo 'test';
         echo $greet;
     }
 }
